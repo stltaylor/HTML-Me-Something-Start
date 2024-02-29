@@ -1,8 +1,8 @@
 #list {
     float: left;
-    /* Float the list to the left */
+    
     width: 50%;
-    /* Take up 50% of the available width */
+   
     margin-top: 50px;
     font-size: 1.5vw;
     
@@ -17,11 +17,11 @@
     
 }
 
-/* Optional: Add some margin between the list and the image */
+
 #list,
 #image {
     margin-bottom: 10px;
-    /* Adjust as needed */
+ 
 }
 
 footer {
@@ -47,6 +47,14 @@ body {
     position: relative;
     color: green;
 }
+.inline {
+    display: inline;
+    margin-right: 10px;
+}
+#email {
+    margin-right: 10px;
+}
+
 /* Add class to html and then style it here
 Use the element selector to give the <body>element a margin value of 8px and a display type of block. 
 
