@@ -27,13 +27,18 @@
 footer {
     clear: both;
     text-align: center;
+    
 }
 
+#bottomStuff {
+    position: relative;
+    top: 2px;
+}
 #mainHeading {
     margin: 0;
     text-align: center;
     font-size: 7vw;
-    color: red;
+    /* color: red; */
     
 }
 body {
@@ -45,7 +50,7 @@ body {
     text-align: center;
     clear: both;
     position: relative;
-    color: green;
+    /* color: green; */
 }
 .inline {
     display: inline;
@@ -64,3 +69,23 @@ Give a paragraph on your page the id of testP and a class name of funParagraph.
 
 Use the class selector in styles.css and give it a styling of your choosing. */
 
+ /* @keyframes shimmer {
+     0% {
+         background-position: -200%;
+     }
+
+     100% {
+         background-position: 200%;
+     }
+ }
+
+ .shimmer-text {
+     background: linear-gradient(to right, #eee 8%, #ddd 18%, #eee 33%);
+     background-size: 400%;
+     color: transparent;
+     display: inline-block;
+     -webkit-background-clip: text;
+     background-clip: text;
+     animation: shimmer 2s infinite linear;
+     text-align: center;
+ } */
