@@ -1,18 +1,21 @@
 #list {
     float: left;
     /* Float the list to the left */
-    width: 75%;
+    width: 50%;
     /* Take up 50% of the available width */
+    margin-top: 50px;
+    font-size: 1.5vw;
+    
 }
 
-/* #image {
+#image {
     float: right;
     
-    width: 50%;
+    width: 40%;
     margin-top: 0;
     
     
-} */
+}
 
 /* Optional: Add some margin between the list and the image */
 #list,
@@ -23,9 +26,33 @@
 
 footer {
     clear: both;
-}
-
-header {
-    margin: 0;
     text-align: center;
 }
+
+#mainHeading {
+    margin: 0;
+    text-align: center;
+    font-size: 7vw;
+    color: red;
+    
+}
+body {
+    margin: 8px;
+    display: block;
+    background-color: #99CCFF;
+}
+.funParagraph {
+    text-align: center;
+    clear: both;
+    position: relative;
+    color: green;
+}
+/* Add class to html and then style it here
+Use the element selector to give the <body>element a margin value of 8px and a display type of block. 
+
+Give a heading on your page the id of mainHeading and use the id selector in styles.css to apply a styling of your choosing. 
+
+Give a paragraph on your page the id of testP and a class name of funParagraph. 
+
+Use the class selector in styles.css and give it a styling of your choosing. */
+
