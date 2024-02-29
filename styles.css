@@ -1,7 +1,7 @@
 #list {
     float: left;
     /* Float the list to the left */
-    width: 35%;
+    width: 75%;
     /* Take up 50% of the available width */
 }
 
@@ -23,4 +23,9 @@
 
 footer {
     clear: both;
+}
+
+header {
+    margin: 0;
+    text-align: center;
 }
