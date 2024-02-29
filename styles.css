@@ -1,1 +1,26 @@
-/* Write your CSS here! */
+#list {
+    float: left;
+    /* Float the list to the left */
+    width: 35%;
+    /* Take up 50% of the available width */
+}
+
+/* #image {
+    float: right;
+    
+    width: 50%;
+    margin-top: 0;
+    
+    
+} */
+
+/* Optional: Add some margin between the list and the image */
+#list,
+#image {
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+footer {
+    clear: both;
+}
