@@ -52,13 +52,13 @@ body {
     position: relative;
     /* color: green; */
 }
-.inline {
+/* .inline {
     display: inline;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 #email {
     margin-right: 10px;
-}
+} */
 
 /* Add class to html and then style it here
 Use the element selector to give the <body>element a margin value of 8px and a display type of block. 
